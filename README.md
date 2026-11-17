@@ -6,7 +6,7 @@ Una herramienta abierta para que cualquier persona encuentre rápido el lugar m�
 
 Base construida con Claude, desarrollado con Google AI Studio.
 
-🔗 **Demo:** [Pegá acá el link de tu mapa]  
+🔗 **Demo:** https://donde-denunciar-paraguay.netlify.app/
 📅 **Proyecto:** #30DayMapChallenge - Día 17: Light & Dark
 
 ---
