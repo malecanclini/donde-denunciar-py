@@ -144,7 +144,3 @@ npm install
 npm run dev
 ---
 
-
-Y pegás esta versión.
-
-¿Querés que te lo arme ya junto, español + inglés en un solo texto para copiar y pegar?
