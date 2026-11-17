@@ -1,0 +1,6 @@
+{
+  "name": "Dónde Denunciar — Mapa de Protección Ley N° 5777/16",
+  "description": "Mapa interactivo y directorio gratuito de 2.932 puntos de atención ante la violencia de género en Paraguay (Ley N° 5777/16). Adaptado para Día 17 - Light & Dark del #30DayMapChallenge 2026.",
+  "requestFramePermissions": ["geolocation"],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
