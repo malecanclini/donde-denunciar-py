@@ -1,8 +1,8 @@
 # Dónde Denunciar - Paraguay
 
-Mapa interactivo para encontrar dónde denunciar violencia en Paraguay.
+Mapa interactivo para encontrar dónde denunciar **violencia contra la mujer** en Paraguay.
 
-Una herramienta abierta para que cualquier persona encuentre rápido el lugar más cercano para pedir ayuda, denunciar o recibir atención.
+Una herramienta abierta basada en la **Ley 5777/16 de Protección Integral a las Mujeres contra toda forma de Violencia**, para que cualquier mujer encuentre rápido el lugar más cercano para pedir ayuda, denunciar o recibir atención.
 
 Base construida con Claude, desarrollado con Google AI Studio.
 
@@ -13,11 +13,21 @@ Base construida con Claude, desarrollado con Google AI Studio.
 
 ## ¿Qué muestra?
 
-**2.932 puntos en todo Paraguay:**
+**2.932 puntos en todo Paraguay, clasificados:**
 
 - **13** Centros especializados de atención
 - **1.179** Comisarías
 - **1.740** Centros de salud / USF
+
+## ¿Qué hice?
+
+No solo georreferencié los datos. **Clasifiqué manualmente los puestos de salud y las comisarías** según su rol en la ruta de atención de la Ley 5777/16:
+
+- **Comisarías:** Clasificadas para denuncia policial y derivación inmediata.
+- **Centros de salud / USF:** Clasificados para atención médica, psicológica y contención.
+- **Centros especializados:** Atención integral, legal y psicosocial.
+
+Así, en una emergencia, la búsqueda no devuelve solo puntos sueltos, devuelve el tipo de ayuda correcta.
 
 ## Funcionalidades
 
@@ -36,7 +46,7 @@ Base construida con Claude, desarrollado con Google AI Studio.
 
 ## Datos
 
-Datos públicos del **INE - Instituto Nacional de Estadística, Paraguay**, curados y georreferenciados para este mapa:
+Datos públicos del **INE - Instituto Nacional de Estadística, Paraguay**, curados, clasificados y georreferenciados para este mapa:
 
 - Centros especializados
 - Comisarías
@@ -63,4 +73,3 @@ La base del mapa, los filtros, los clusters y la versión Light & Dark se trabaj
 ```bash
 npm install
 npm run dev
-```
